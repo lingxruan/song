@@ -89,7 +89,7 @@ public class Billionaire extends JFrame {
             Billionaire frame = new Billionaire();
             frame.setVisible(true);
             frame.setLocationRelativeTo(null);
-            frame.setLocation(frame.getX(), Toolkit.getDefaultToolkit().getScreenSize().height - frame.getHeight()); // Position at bottom
+            frame.setLocation(frame.getX(), Toolkit.getDefaultToolkit().getScreenSize().height - frame.getHeight());
         });
     }
 }
